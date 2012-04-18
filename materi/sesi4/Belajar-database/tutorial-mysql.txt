@@ -1,0 +1,22 @@
+setting instalasi :
+- mysql terinsal di c :\xampp\mysql\bin
+-username mysql : root
+-password root : <kosong/tanpa password>
+
+cara masuk ke dalam database mysql
+c:\xampp\mysql\bin\mysq; -u root
+
+cara membuat databse baru (dilakukan setelah masu ke mysql)
+create dataabse belajar;
+
+cara melihat database yang ada (dilakukan untuk masuk ke mysql)
+show databses;
+
+cara keluar dari mysql (dilakukan setelah masuk ke mysql)
+\q
+
+cara menjalakan file sql (dilakukan di command prompt, setelah keluar dari mysql)
+c:\xampp\mysql\bin\mysql -u root nama-db < nama-file.sql
+
+contoh :
+c:\xampp\mysql\bin\mysql - u root belajar < skema-mysql.sql

@@ -1,0 +1,14 @@
+<project>
+	<modelVersion>4.0.0</modelVersion>
+	<groupId>Pemogramman-2</groupId>
+	<artifacId>Belajar-JDBC</artifacId>
+	<version>1.0.0</version>
+	
+	<dependencies>
+		<dependency>
+			<groupId>mysql<groupId>
+			<artifacId>mysql</artifacId>
+			<version>5.1.18</version>
+		</dependency>
+	</dependencies>
+</project>
