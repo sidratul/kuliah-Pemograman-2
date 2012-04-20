@@ -20,4 +20,11 @@ public HalloTest extends TestCase{
 	public void testHallo(){
 		System.out.println("Hello world");
 	}
+
+	public void testAritmatic(){
+		int a=10;
+		int b=5;
+
+		Assert.assertEquals(13, a+b);
+	}
 }
