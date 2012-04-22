@@ -1,5 +1,5 @@
 package belajar.string;
 
-public DataMahasiswa{
+public class DataMahasiswa{
 	
 }

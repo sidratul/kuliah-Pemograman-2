@@ -1,8 +1,8 @@
 package belajar.string;
 
-public StringDemo{
+public class StringDemo{
 	public int jumlahHuruf(String input){
-		return input.lenght();
+		return input.length();
 	}
 	
 	public String potong(String input, int mulai){
@@ -10,14 +10,14 @@ public StringDemo{
 	}
 	
 	public String potong(String input, int mulai, int sampai){
-		return input.substring(mulai, sampai);
+		return input.substring(mulai,sampai);
 	}
 	
-	public boolean ketemu(String sumber, string yangMauDiCari){
+	public boolean ketemu(String sumber, String yangMauDiCari){
 		return sumber.indexOf(yangMauDiCari) != -1;
 	}
 	
-	public string ganti(String sumber, string yangMauDiGanti, string yangMengganti){
-		//
+	public String ganti(String sumber, String yangMauDiGanti, String yangMengganti){
+		return sumber.replaceAll(yangMauDiGanti, yangMengganti);
 	}
 }
