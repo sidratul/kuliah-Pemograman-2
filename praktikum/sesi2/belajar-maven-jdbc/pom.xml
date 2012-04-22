@@ -1,7 +1,7 @@
 <project>
     <modelVersion>4.0.0</modelVersion>
     <groupId>pemrograman-2</groupId>
-    <artifactId>belajar-jdbc</artifactId>
+    <artifactId>belajar-maven-jdbc</artifactId>
     <version>1.0.0</version>
 
     <dependencies>

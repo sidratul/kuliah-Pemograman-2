@@ -1,0 +1,18 @@
+String : Kumpulan huruf atau huruf yang membentuk suatu kata atau kalimat
+- panjang string :
+	 leght -> int
+- memotong string :
+	berdasarkan posisi :
+		substring (int)
+		substring(int,int)
+	
+	Berdasarkan separator
+		split
+-mencari string dalam string :
+	index of
+- membandingkan / matching : 
+	matches 
+- mengganti string didalam string :
+	replace all
+	replace chars
+	
