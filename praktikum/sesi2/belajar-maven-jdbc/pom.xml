@@ -21,11 +21,33 @@
 		<plugins>
 			<plugin>
 				<groupId>org.apache.maven.plugins</groupId>
-				<artifactId>maven-compiler-plugin</artifactId>
-				<version>2.0.2</version>
+				<artifactId>maven-dependency-plugin</artifactId>
+				<executions>
+					<execution>
+						<id>copu-dependencies</id>
+						<phase>prepare-package</phase>
+						<goals>
+							<goal>copu-dependencies</goal>
+						</goals>
+						<configuration>
+							<outputDirectory>${project.build.directory}/lib</outputDirectory>
+							<overWriteRelases>true</overWriteRelases>
+							<overWriteSnapshots>true</overWriteSnapshots>
+							<overWriteIfNewer>true</overWriteIfNewer>
+						</configuration>
+					</execution>					
+				</executions>
+			</plugin>
+			<plugin>
+				<groupId>org.apache.maven.plugins</groupId>
+				<artifactId>maven-jar-plugin</artifactId>
 				<configuration>
-					<source>1.6</source>
-					<target>1.6</target>
+					<archive>
+						<manifest>
+							<addClasspath>true</addClasspath>
+							<ClasspathPrefix>${project.build.dictionary}/lib/</ClasspathPrefix>
+						</manifest>
+					</archive>
 				</configuration>
 			</plugin>
 		</plugins>
