@@ -1,0 +1,34 @@
+regular expression (REGEX)
+
+- pola dalam string
+- character class / group
+
+[a-z] : semua huruf kecil
+[A-Z] : semua huruf besar
+[0-9] : semua angka
+[a-z A-Z 0-9] : semua huruf dan angka
+
+
+\\w : semua pembentuk anggka --> ,a-z ,A-Z ,0-9, _
+\\W : lawannya
+\\d : angka saja
+\\s : white spase --> spasi . tab, enter
+. : semua angka
+
+-Qualification
++ : satu / lebih
+* : boleh nol
+? : 0-1
+{n} : minimal n 
+{x,y} : minimal x, maximal y
+
+- escape character
+\.\.\.  : tiga titik 
+\Q .. \E : tiga titik
+\... : satu titik diikuti karakter apa saja
+
+contoh : telp -> +62......
+regex : \+[6][2][0-9]{10}
+
+latihan : tgl lahir -> 29 april 2011
+[0-3][0-9][\s][A-Za-z]{3,3}[\s][0-2][0-9]{3}

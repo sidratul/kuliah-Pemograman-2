@@ -4,12 +4,12 @@ import org.junit.*;
 import static org.junit.Assert.*;
 
 public class StringDemoTest{
-	/*@Test
+	@Test
 	public void testPanjangString(){
 		StringDemo sd = new StringDemo();
 		String nama="sidratul";
 		assertTrue(sd.jumlahHuruf(nama) == 8);
-	}*/
+	}
 	
 	@Test
 	public void testPotongString(){
@@ -19,7 +19,7 @@ public class StringDemoTest{
 		assertEquals("mad sid",sd.potong(nama,5));
 	}
 	
-	/*@Test
+	@Test
 	public void testCariString(){
 		StringDemo sd= new StringDemo();
 		String nama= "muhammad sidratul muntaha";
@@ -27,12 +27,12 @@ public class StringDemoTest{
 		assertFalse(sd.ketemu(nama, "temu"));
 	}*/
 	
-	/*@Test
+	@Test
 	public void testGantiString(){
 		StringDemo sd= new StringDemo();
 		String nama= "muhammad sidratul muntaha";
 		assertEquals("muhammad sid",sd.ganti(nama,"sidratul muntaha","sid"));
-	}*/
+	}
 }
 
 
