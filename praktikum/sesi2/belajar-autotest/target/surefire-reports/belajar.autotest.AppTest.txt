@@ -1,0 +1,13 @@
+-------------------------------------------------------------------------------
+Test set: belajar.autotest.AppTest
+-------------------------------------------------------------------------------
+Tests run: 2, Failures: 1, Errors: 0, Skipped: 0, Time elapsed: 0.053 sec <<< FAILURE!
+testAritmetic(belajar.autotest.AppTest)  Time elapsed: 0.014 sec  <<< FAILURE!
+junit.framework.AssertionFailedError: expected:<10> but was:<11>
+	at junit.framework.Assert.fail(Assert.java:47)
+	at junit.framework.Assert.failNotEquals(Assert.java:282)
+	at junit.framework.Assert.assertEquals(Assert.java:64)
+	at junit.framework.Assert.assertEquals(Assert.java:201)
+	at junit.framework.Assert.assertEquals(Assert.java:207)
+	at belajar.autotest.AppTest.testAritmetic(AppTest.java:32)
+

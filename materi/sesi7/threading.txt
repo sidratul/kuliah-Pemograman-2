@@ -1,0 +1,12 @@
+coding
+1. class single thread counter
+	method hitung
+	-> loop 10 iterasi , masing-masing print iterasi
+	
+	OUTPut : iterasi 1
+		iterasi 2
+		:
+		:
+		:
+
+2 Buat main Class
